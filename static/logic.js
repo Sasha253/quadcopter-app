@@ -29,5 +29,9 @@ function powerOff() {
 }
 
 function initialise() {
-  location.href = "http://localhost:8000/"
+  location.href = "https://sasha253.github.io/quadcopter-app/"
+}
+
+function videoStreamer() {
+  location.href = "https://sasha253.github.io/quadcopter-app/video-stream"
 }
