@@ -1,1 +1,27 @@
-<h1> Hello World </h1>
+<head>
+    <title> Bluetooth Connection </title>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <script src="https://kit.fontawesome.com/b761f8916a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/bleconnection.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1><b> Quadcopter </b></h1>
+    </div>
+    <div>
+        <img src="static/images/copter-logo.png" alt="quadcopter logo">
+    </div>
+    <div class="footer">
+        <h2 style="color: gray;"></h2>
+        <div class="bleConnectionButton">
+            <button class="ble"> CONNECT </button>
+            <i class="fab fa-bluetooth-b"></i>
+        </div>
+        <button onClick="initialise()" class="bleInitialiseButton"> INITIALISE </button>
+    </div>
+
+    <script src="static/bleconfig.js"></script> 
+    <script src="static/logic.js"></script>
+
+</body> 

@@ -18,7 +18,7 @@ router.get('/', function(req, res){
     })
 
 router.get('/connection', function(req, res){
-res.sendFile(path.join(__dirname+'/src/bleconnection.html'))
+res.sendFile(path.join(__dirname+'/index.html'))
 })
 
 router.get('/dev', function(req, res){
