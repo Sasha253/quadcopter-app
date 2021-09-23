@@ -1,0 +1,39 @@
+<head>
+    <title> Bluetooth Connection </title>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <script src="https://kit.fontawesome.com/b761f8916a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-title">
+            <h1> <b>Quadcopter</b> </h1>
+        </div>
+        <div class="header-icon">
+            <button>
+                <i class="fas fa-video"></i>
+            </button>
+        </div>
+    </div>
+    <div class="main">
+        <button class="form-button"> SET HOVER </button>
+        <form>
+            <input class="hover-input" placeholder="Set hover height...">
+        </form>
+        <button class="form-button"> SET GPS </button>
+        <form class="gps-form">
+            <input class="lat-input" placeholder="Lat...">
+            <input class="lon-input" placeholder="Lon...">
+        </form>
+    </div>
+    <div class="button-container">
+        <button class="start-button"> START </button>
+
+        <button class="land-button"> LAND </button>
+        <button class="emergency-stop-button"> EMERGENCY STOP </button>
+    </div>
+    
+    <script src="static/bleconfig.js"></script> 
+    <script src="static/logic.js"></script>
+</body> 
